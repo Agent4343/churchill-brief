@@ -1,0 +1,1222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="color-scheme" content="light only" />
+<meta name="supported-color-schemes" content="light" />
+<title>My Public Brief on the Churchill Falls MOU, Fix It. Then Sign.</title>
+<meta name="description" content="A public brief on the Churchill Falls Memorandum of Understanding between Newfoundland & Labrador and Quebec." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&family=Source+Serif+4:ital,opsz,wght@0,8..60,300..700;1,8..60,300..700&display=swap" rel="stylesheet">
+
+<style>
+:root {
+  color-scheme: light only;
+  --paper: #FAF6EC;
+  --paper-warm: #F4EFE0;
+  --ink: #0F1A2A;
+  --ink-soft: #2A3445;
+  --rule: #1A2538;
+  --rule-soft: #C9BFA8;
+  --granite: #5A6473;
+  --rust: #8B2F1F;
+  --ochre: #B8843A;
+  --moss: #4A5A3F;
+  --max: 980px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root { color-scheme: light only; }
+  html, body {
+    background: #FAF6EC !important;
+    color: #0F1A2A !important;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  background: #FAF6EC;
+  color-scheme: light only;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background: #FAF6EC;
+  color: #0F1A2A;
+  font-family: 'Source Serif 4', Georgia, serif;
+  font-size: 19px;
+  line-height: 1.6;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+.container {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.eyebrow {
+  font-family: 'Source Serif 4', serif;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--rust);
+  margin-bottom: 22px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  line-height: 1.3;
+}
+
+.eyebrow::before {
+  content: '';
+  flex-shrink: 0;
+  display: inline-block;
+  width: 28px;
+  height: 2px;
+  background: var(--rust);
+}
+
+.masthead {
+  border-bottom: 3px double var(--rule);
+  padding: 28px 0;
+}
+
+.masthead-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 12px;
+  font-family: 'Source Serif 4', serif;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--granite);
+  border-bottom: 1px solid var(--ink);
+  padding-bottom: 16px;
+  margin-bottom: 28px;
+}
+
+.masthead-title {
+  font-family: 'Fraunces', serif;
+  font-weight: 400;
+  font-size: clamp(34px, 6vw, 58px);
+  line-height: 1.02;
+  letter-spacing: -0.02em;
+  color: var(--ink);
+  text-align: center;
+  max-width: 16ch;
+  margin: 0 auto;
+}
+
+.masthead-title em {
+  font-style: italic;
+  color: var(--rust);
+}
+
+.masthead-subtitle {
+  text-align: center;
+  font-family: 'Fraunces', serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 19px;
+  color: var(--ink-soft);
+  margin-top: 22px;
+  max-width: 38ch;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.5;
+}
+
+.hero {
+  padding: 60px 0 50px;
+  text-align: center;
+  border-bottom: 1px solid var(--rule);
+}
+
+.hero-headline {
+  font-family: 'Fraunces', serif;
+  font-weight: 350;
+  font-size: clamp(64px, 17vw, 150px);
+  line-height: 0.9;
+  letter-spacing: -0.04em;
+  color: var(--ink);
+}
+
+.hero-headline .line { display: block; }
+
+.hero-headline .accent {
+  color: var(--rust);
+  font-style: italic;
+}
+
+.hero-period { color: var(--rust); }
+
+.hero-pillars {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 44px;
+  border-top: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
+}
+
+.pillar {
+  padding: 22px 16px;
+  text-align: center;
+  font-family: 'Fraunces', serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--ink);
+  border-bottom: 1px solid var(--rule-soft);
+  border-right: 1px solid var(--rule-soft);
+  line-height: 1.3;
+}
+
+.pillar:nth-child(2n) { border-right: none; }
+.pillar:nth-last-child(-n+2) { border-bottom: none; }
+
+.pillar-num {
+  display: block;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 0.18em;
+  color: var(--rust);
+  margin-bottom: 8px;
+  font-family: 'Source Serif 4', serif;
+}
+
+.stats {
+  padding: 48px 0;
+  border-bottom: 1px solid var(--rule);
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.stat {
+  padding: 24px 18px;
+  border-right: 1px solid var(--rule-soft);
+  border-bottom: 1px solid var(--rule-soft);
+}
+
+.stat:nth-child(2n) { border-right: none; }
+.stat:nth-last-child(-n+2) { border-bottom: none; }
+
+.stat-value {
+  font-family: 'Fraunces', serif;
+  font-weight: 400;
+  font-size: clamp(32px, 6vw, 44px);
+  line-height: 1;
+  color: var(--ink);
+  letter-spacing: -0.02em;
+  margin-bottom: 14px;
+}
+
+.stat-value .small {
+  font-size: 0.55em;
+  color: var(--granite);
+  font-weight: 400;
+}
+
+.stat-label {
+  font-family: 'Source Serif 4', serif;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: var(--granite);
+  line-height: 1.4;
+}
+
+section {
+  padding: 60px 0;
+  border-bottom: 1px solid var(--rule);
+}
+
+.section-title {
+  font-family: 'Fraunces', serif;
+  font-weight: 400;
+  font-size: clamp(32px, 5vw, 48px);
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+  color: var(--ink);
+  margin-bottom: 28px;
+  max-width: 18ch;
+}
+
+.section-title em {
+  font-style: italic;
+  color: var(--rust);
+}
+
+.prose {
+  font-size: 19px;
+  line-height: 1.65;
+  color: var(--ink);
+}
+
+.prose p + p { margin-top: 18px; }
+
+.prose em {
+  font-style: italic;
+  color: var(--rust);
+  font-weight: 500;
+}
+
+.recommend {
+  background: var(--ink);
+  color: var(--paper);
+  padding: 40px 28px;
+  margin-top: 32px;
+  border-left: 6px solid var(--rust);
+}
+
+.recommend-tag {
+  font-family: 'Source Serif 4', serif;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--rust);
+  margin-bottom: 18px;
+}
+
+.recommend-title {
+  font-family: 'Fraunces', serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: clamp(38px, 7vw, 56px);
+  line-height: 0.95;
+  letter-spacing: -0.02em;
+  margin-bottom: 28px;
+  color: var(--paper);
+}
+
+.recommend-list {
+  list-style: none;
+}
+
+.recommend-list li {
+  padding: 16px 0 16px 28px;
+  border-bottom: 1px solid rgba(242, 234, 216, 0.18);
+  font-size: 18px;
+  line-height: 1.5;
+  position: relative;
+  color: rgba(242, 234, 216, 0.95);
+}
+
+.recommend-list li::before {
+  content: '→';
+  position: absolute;
+  left: 0;
+  top: 14px;
+  color: var(--rust);
+  font-family: 'Fraunces', serif;
+  font-size: 22px;
+}
+
+.recommend-list li:last-child { border-bottom: none; }
+
+.positives {
+  margin-top: 28px;
+  border-top: 2px solid var(--rule);
+}
+
+.positive {
+  padding: 28px 0;
+  border-bottom: 1px solid var(--rule-soft);
+}
+
+.positive:last-child { border-bottom: none; }
+
+.positive-tag {
+  font-family: 'Source Serif 4', serif;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--moss);
+  margin-bottom: 14px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.positive-tag::before {
+  content: '';
+  width: 10px;
+  height: 10px;
+  background: var(--moss);
+  border-radius: 50%;
+}
+
+.positive-title {
+  font-family: 'Fraunces', serif;
+  font-weight: 500;
+  font-size: clamp(22px, 3.2vw, 26px);
+  margin-bottom: 12px;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+}
+
+.positive-body {
+  font-size: 18px;
+  line-height: 1.6;
+  color: var(--ink-soft);
+}
+
+.critical {
+  background: var(--paper-warm);
+  border: 2px solid var(--rust);
+  padding: 36px 28px;
+  margin-top: 28px;
+}
+
+.critical-tag {
+  font-family: 'Source Serif 4', serif;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+  display: inline-block;
+  background: var(--rust);
+  color: var(--paper);
+  padding: 7px 14px;
+}
+
+.critical-title {
+  font-family: 'Fraunces', serif;
+  font-weight: 500;
+  font-size: clamp(26px, 4vw, 34px);
+  line-height: 1.18;
+  letter-spacing: -0.015em;
+  color: var(--ink);
+  margin-bottom: 22px;
+}
+
+.critical-title em {
+  font-style: italic;
+  color: var(--rust);
+}
+
+.critical-body {
+  font-size: 18px;
+  line-height: 1.65;
+  margin-bottom: 18px;
+  color: var(--ink);
+}
+
+.critical-list {
+  list-style: none;
+  margin-top: 22px;
+  counter-reset: crit-counter;
+}
+
+.critical-list li {
+  padding: 16px 0 16px 40px;
+  border-top: 1px solid rgba(139, 47, 31, 0.25);
+  font-size: 18px;
+  line-height: 1.5;
+  position: relative;
+}
+
+.critical-list li:last-child {
+  border-bottom: 1px solid rgba(139, 47, 31, 0.25);
+}
+
+.critical-list li::before {
+  counter-increment: crit-counter;
+  content: counter(crit-counter, decimal-leading-zero);
+  position: absolute;
+  left: 0;
+  top: 17px;
+  font-family: 'Source Serif 4', serif;
+  font-weight: 700;
+  font-size: 15px;
+  color: var(--rust);
+  letter-spacing: 0.06em;
+}
+
+.critical-pull {
+  margin-top: 26px;
+  padding: 20px 24px;
+  background: var(--rust);
+  color: var(--paper);
+  font-family: 'Fraunces', serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 1.45;
+}
+
+.concerns {
+  margin-top: 28px;
+  border-top: 2px solid var(--rule);
+}
+
+.concern {
+  padding: 28px 0;
+  border-bottom: 1px solid var(--rule-soft);
+}
+
+.concern:last-child { border-bottom: none; }
+
+.concern-tag {
+  font-family: 'Source Serif 4', serif;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--ochre);
+  margin-bottom: 12px;
+}
+
+.concern-title {
+  font-family: 'Fraunces', serif;
+  font-weight: 500;
+  font-size: clamp(22px, 3vw, 26px);
+  margin-bottom: 12px;
+  line-height: 1.2;
+}
+
+.concern-body {
+  font-size: 18px;
+  line-height: 1.6;
+  color: var(--ink-soft);
+}
+
+.choices {
+  margin-top: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.choice {
+  border: 1px solid var(--rule-soft);
+  padding: 28px 24px;
+  background: var(--paper-warm);
+}
+
+.choice.best {
+  background: var(--ink);
+  color: var(--paper);
+  border-color: var(--rust);
+  border-width: 2px;
+}
+
+.choice.best .choice-name { color: var(--paper); }
+.choice.best .choice-row { color: rgba(242, 234, 216, 0.85); }
+.choice.best .choice-row strong { color: rgba(242, 234, 216, 0.6); }
+
+.choice-name {
+  font-family: 'Fraunces', serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: clamp(26px, 3.6vw, 32px);
+  line-height: 1.05;
+  color: var(--ink);
+  margin-bottom: 18px;
+}
+
+.choice-row {
+  font-size: 17px;
+  line-height: 1.55;
+  margin-bottom: 14px;
+  color: var(--ink-soft);
+}
+
+.choice-row:last-of-type { margin-bottom: 0; }
+
+.choice-row strong {
+  display: block;
+  font-family: 'Source Serif 4', serif;
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--granite);
+  margin-bottom: 6px;
+}
+
+.verdict {
+  display: inline-block;
+  margin-top: 16px;
+  padding: 9px 16px;
+  font-family: 'Source Serif 4', serif;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  background: var(--rust);
+  color: var(--paper);
+}
+
+.verdict.warn { background: var(--ochre); }
+.verdict.good { background: var(--moss); }
+
+.must-list {
+  list-style: none;
+  margin-top: 28px;
+  counter-reset: must-counter;
+}
+
+.must-item {
+  display: grid;
+  grid-template-columns: 70px 1fr;
+  gap: 20px;
+  padding: 28px 0;
+  border-bottom: 1px solid var(--rule-soft);
+  align-items: baseline;
+}
+
+.must-item:first-child { border-top: 2px solid var(--rule); }
+
+.must-num {
+  counter-increment: must-counter;
+  font-family: 'Fraunces', serif;
+  font-style: italic;
+  font-weight: 350;
+  font-size: 60px;
+  line-height: 0.9;
+  color: var(--rust);
+}
+
+.must-num::before { content: counter(must-counter); }
+
+.pressure {
+  background: var(--ink);
+  color: var(--paper);
+  padding: 38px 28px;
+  margin-top: 28px;
+  border-left: 6px solid var(--ochre);
+}
+
+.pressure-tag {
+  font-family: 'Source Serif 4', serif;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--ochre);
+  margin-bottom: 16px;
+}
+
+.pressure-title {
+  font-family: 'Fraunces', serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: clamp(28px, 4.4vw, 38px);
+  line-height: 1.12;
+  margin-bottom: 22px;
+  letter-spacing: -0.015em;
+  color: var(--paper);
+}
+
+.pressure-body {
+  font-size: 18px;
+  line-height: 1.65;
+  color: rgba(242, 234, 216, 0.92);
+}
+
+.pressure-body p + p { margin-top: 16px; }
+
+.growth-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 26px;
+}
+
+.growth-tag {
+  font-family: 'Fraunces', serif;
+  font-style: italic;
+  padding: 10px 18px;
+  border: 1.5px solid var(--rule);
+  border-radius: 999px;
+  font-size: 17px;
+  background: var(--paper-warm);
+  color: var(--ink);
+}
+
+.closing {
+  text-align: center;
+  padding: 70px 0;
+  border-bottom: 3px double var(--rule);
+}
+
+.closing-line {
+  font-family: 'Fraunces', serif;
+  font-style: italic;
+  font-weight: 350;
+  font-size: clamp(34px, 7.5vw, 64px);
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  color: var(--ink);
+}
+
+.closing-line .accent {
+  color: var(--rust);
+  font-weight: 400;
+}
+
+.closing-tag {
+  font-family: 'Fraunces', serif;
+  font-style: italic;
+  font-size: 18px;
+  color: var(--granite);
+  margin-top: 28px;
+  line-height: 1.5;
+  max-width: 32ch;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  padding: 36px 0 56px;
+  text-align: center;
+  font-family: 'Source Serif 4', serif;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  color: var(--granite);
+  text-transform: uppercase;
+  line-height: 1.6;
+}
+
+@media (min-width: 768px) {
+  body { font-size: 20px; }
+  .container { padding: 0 40px; }
+
+  .hero-pillars { grid-template-columns: repeat(4, 1fr); }
+  .pillar {
+    border-bottom: none !important;
+    border-right: 1px solid var(--rule-soft);
+  }
+  .pillar:last-child { border-right: none; }
+
+  .stats-grid { grid-template-columns: repeat(4, 1fr); }
+  .stat {
+    border-bottom: none !important;
+    border-right: 1px solid var(--rule-soft);
+  }
+  .stat:last-child { border-right: none; }
+
+  .positives {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-bottom: 2px solid var(--rule);
+  }
+  .positive {
+    padding: 32px 28px;
+    border-bottom: none;
+    border-right: 1px solid var(--rule-soft);
+  }
+  .positive:last-child { border-right: none; }
+
+  .concerns {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0 40px;
+  }
+
+  .recommend, .pressure, .critical {
+    padding: 48px;
+  }
+
+  .must-item {
+    grid-template-columns: 100px 1fr;
+    gap: 32px;
+  }
+
+  .must-num { font-size: 78px; }
+}
+
+::selection {
+  background: var(--rust);
+  color: var(--paper);
+}
+
+@page {
+  size: letter;
+  margin: 0.55in 0.5in;
+}
+
+@media print {
+  html, body {
+    background: white !important;
+    color: #0F1A2A !important;
+    font-size: 13pt;
+    line-height: 1.55;
+  }
+
+  .container {
+    max-width: 100%;
+    padding: 0;
+  }
+
+  .recommend, .pressure, .choice.best {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    background: #0F1A2A !important;
+    color: #FAF6EC !important;
+  }
+
+  .recommend *, .pressure *, .choice.best * {
+    color: #FAF6EC !important;
+  }
+
+  .critical {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    background: #F4EFE0 !important;
+    border: 1.5pt solid #8B2F1F !important;
+  }
+
+  .critical-tag, .critical-pull, .verdict {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  section {
+    padding: 26pt 0 !important;
+  }
+
+  .masthead-title {
+    font-size: 32pt !important;
+  }
+
+  .hero-headline {
+    font-size: 84pt !important;
+  }
+
+  .hero-pillars,
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+
+  .positives,
+  .concerns {
+    display: block !important;
+  }
+
+  .positive,
+  .concern,
+  .choice,
+  .must-item,
+  .recommend,
+  .pressure,
+  .critical,
+  .closing {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  p, li {
+    orphans: 3;
+    widows: 3;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header class="masthead">
+  <div class="container">
+    <div class="masthead-bar">
+      <span>Public Brief</span>
+      <span>Churchill Falls MOU</span>
+      <span>May 2026</span>
+    </div>
+    <h1 class="masthead-title">My Public Brief on the <em>Churchill Falls</em> Memorandum of Understanding</h1>
+    <p class="masthead-subtitle">A plain-language assessment of what the deal does, where it falls short, and what must be improved before any binding agreement is signed.</p>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container">
+    <h2 class="hero-headline">
+      <span class="line">Fix it<span class="hero-period">.</span></span>
+      <span class="line accent">Then sign<span class="hero-period">.</span></span>
+    </h2>
+    <div class="hero-pillars">
+      <div class="pillar"><span class="pillar-num">01</span>Get paid now</div>
+      <div class="pillar"><span class="pillar-num">02</span>Keep control later</div>
+      <div class="pillar"><span class="pillar-num">03</span>Protect future power</div>
+      <div class="pillar"><span class="pillar-num">04</span>Build the economy here</div>
+    </div>
+  </div>
+</section>
+
+<section class="stats">
+  <div class="container">
+    <div class="stats-grid">
+      <div class="stat">
+        <div class="stat-value">2041</div>
+        <div class="stat-label">Original 1969 contract expiry</div>
+      </div>
+      <div class="stat">
+        <div class="stat-value">0.2¢ <span class="small">→</span> ~5.9¢</div>
+        <div class="stat-label">Old rate vs. estimated average under publicly discussed assumptions</div>
+      </div>
+      <div class="stat">
+        <div class="stat-value">~$1B<span class="small">/yr</span></div>
+        <div class="stat-label">Estimated average annual revenue through 2041 under current projections</div>
+      </div>
+      <div class="stat">
+        <div class="stat-value">2075</div>
+        <div class="stat-label">Possible end of new agreement</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="eyebrow">The honest answer</div>
+    <h2 class="section-title">The MOU is <em>not</em> obviously a bad deal.</h2>
+    <div class="prose">
+      <p>It would bring major new revenue to Newfoundland & Labrador and finally move past the 1969 arrangement that many believe cost the province billions over five decades. That much is real, and worth acknowledging.</p>
+      <p>But the documents also reveal serious unanswered questions about pricing escalation, transmission access, long-term flexibility, and what happens after 2050. Questions that should ideally be settled before a final binding agreement is signed.</p>
+      <p>The strongest position is neither "sign now" nor "walk away." It is to strengthen the weak terms, then sign a better deal.</p>
+    </div>
+
+    <div class="recommend">
+      <div class="recommend-tag">Recommended position</div>
+      <div class="recommend-title">Fix it,<br>then sign.</div>
+      <ul class="recommend-list">
+        <li>Secure the near-term revenue.</li>
+        <li>Keep the Innu partnership.</li>
+        <li>Keep the path to develop Gull Island and new capacity.</li>
+        <li>Lock down the escalation formula in plain language.</li>
+        <li>Add meaningful review windows before 2051.</li>
+        <li>Protect future power for NL industry and other markets.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="eyebrow">The main risk</div>
+    <h2 class="section-title">Do not repeat <em>the mistake</em>.</h2>
+    <div class="prose">
+      <p>The 1969 deal was not viewed as unfair solely because of price. It locked Newfoundland & Labrador into rigid terms for generations, with no mechanism to share in rising electricity values as decades passed.</p>
+      <p>Any new deal must avoid the same trap. A better headline price is not enough if the province loses too much flexibility, or if the escalation formula fails to track real market value over fifty years.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="eyebrow">What the MOU gets right</div>
+    <h2 class="section-title">Real wins worth <em>preserving</em>.</h2>
+
+    <div class="positives">
+      <div class="positive">
+        <div class="positive-tag">Money before 2041, if signed</div>
+        <h3 class="positive-title">A path to revenue years ahead of schedule.</h3>
+        <p class="positive-body">The 1969 contract does not expire until 2041. The original MOU proposed payments retroactive to January 1, 2025, averaging roughly $1 billion per year through 2041 to the provincial treasury, compared to less than $20 million annually today. With the April 30, 2026 framework deadline passed, the retroactive trigger is no longer guaranteed and would need to be re-negotiated. Until any binding deal is signed, NL continues to receive 0.2¢/kWh under the old contract.</p>
+      </div>
+      <div class="positive">
+        <div class="positive-tag">Innu inclusion</div>
+        <h3 class="positive-title">Indigenous partnership built in.</h3>
+        <p class="positive-body">The Innu Nation is included as a signatory in a way the original 1969 development failed to do. Hiring priority for construction goes to Innu workers first, then Labrador residents, then the rest of the province.</p>
+      </div>
+      <div class="positive">
+        <div class="positive-tag">Power for Labrador, if signed</div>
+        <h3 class="positive-title">A major expansion of industrial power capacity in Labrador.</h3>
+        <p class="positive-body">If a binding agreement is reached, NL Hydro's allocation would expand significantly, from current levels to 1,990 MW carved out for industrial development in Labrador. NL would hold 60% ownership of the new Gull Island entity, with construction jobs prioritizing Innu workers and Labrador residents. Hydro-Québec would contribute approximately $3.5 billion toward NL's participation in the project. That money is tied to long-term power purchase rights, not a no-strings transfer.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="eyebrow">Critical issue №1, Pricing</div>
+    <h2 class="section-title">The <em>$115 billion</em> question.</h2>
+
+    <div class="critical">
+      <span class="critical-tag">Schedule F problem</span>
+      <h3 class="critical-title">The headline number depends on an assumption that <em>isn't binding yet</em>.</h3>
+      <p class="critical-body">The widely cited "$225 billion to the provincial treasury" rests on Schedule G's forecast payment schedule, which, based on publicly available assumptions, appears to imply long-term escalation averaging roughly 5-6% annually over fifty years. The actual <em>binding</em> commitment in the MOU is the present value: $33.8 billion in today's dollars. How that present value translates into future payments depends on Schedule F, the escalation formula, which has not yet been negotiated in binding form.</p>
+      <p class="critical-body">Some independent analyses have suggested that if escalation tracks closer to 3% annually, total payments could fall substantially below the headline projections over the full term of the agreement. Based on publicly available assumptions and estimates, the starting point in 2024 dollars works out to about 2.5¢/kWh on average, only around 41% of recent New England wholesale prices.</p>
+      <ol class="critical-list">
+        <li>The final agreement must define the escalation formula in plain language, not leave it to future negotiation.</li>
+        <li>The formula must reference verifiable benchmarks: Quebec wholesale prices, replacement cost of green energy, and Northeast export markets.</li>
+        <li>The pricing floor and any deflation protection must be explicit. Energy prices have not risen consistently for the last fifteen years.</li>
+        <li>The province must publish the assumptions behind the $225 billion figure before any final deal is signed.</li>
+      </ol>
+      <div class="critical-pull">
+        Without a clearly defined escalation formula, the advertised long-term value of this deal is an assumption, not a guarantee.
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="eyebrow">Critical issue №2, Transmission</div>
+    <h2 class="section-title">Who controls <em>the wires</em>?</h2>
+
+    <div class="critical">
+      <span class="critical-tag">Market access</span>
+      <h3 class="critical-title">Churchill power is only as valuable as the ability to <em>move it</em>.</h3>
+      <p class="critical-body">Hydro-Québec controls the primary transmission corridor south to high-value markets in New York and New England. The Labrador-Island Link cannot carry the volumes needed to recapture Churchill power at scale. NL would still depend heavily on Quebec transmission access to reach many outside markets, regardless of the price structure on paper.</p>
+      <ol class="critical-list">
+        <li>Firm wheeling rights for Newfoundland & Labrador power through Hydro-Québec's grid must be defined in the binding agreement.</li>
+        <li>Wheeling pricing and dispute resolution must be transparent and locked in, not subject to future tariff renegotiation.</li>
+        <li>The province must preserve practical access to Northeast and Maritime markets via existing and future transmission.</li>
+        <li>Future transmission expansion rights must be protected for the full term of the agreement.</li>
+      </ol>
+      <div class="critical-pull">
+        Without firm transmission guarantees, Newfoundland & Labrador could remain heavily dependent on Quebec-controlled export access for decades.
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="eyebrow">Other concerns to address</div>
+    <h2 class="section-title">Loose ends that <em>matter</em>.</h2>
+
+    <div class="concerns">
+      <div class="concern">
+        <div class="concern-tag">Concern</div>
+        <h3 class="concern-title">Long-term lock-in</h3>
+        <p class="concern-body">The deal extends toward 2075. Off-ramps in 2051 and 2061 are mentioned in the Fact Sheet but the underlying MOU language is less explicit. Off-ramps need to be confirmed in the final deal and brought earlier.</p>
+      </div>
+      <div class="concern">
+        <div class="concern-tag">Concern</div>
+        <h3 class="concern-title">Pricing clarity for the public</h3>
+        <p class="concern-body">The public deserves a plain-language explanation of nominal dollars, present value, the discount rate, and the real average price, not press releases that mix three different framings.</p>
+      </div>
+      <div class="concern">
+        <div class="concern-tag">Concern</div>
+        <h3 class="concern-title">Most export value still flows through Quebec</h3>
+        <p class="concern-body">Hydro-Québec would secure long-term access to a substantial portion of existing and future Churchill power through long-term purchase agreements, while NL Hydro would retain a significant allocation for Labrador industrial development. Before locking up the rest, the province should test demand from emerging users such as minerals processing, hydrogen, food production, manufacturing, and digital infrastructure, that could create jobs here rather than send electrons to Quebec.</p>
+      </div>
+      <div class="concern">
+        <div class="concern-tag">Concern</div>
+        <h3 class="concern-title">Cost overrun protection</h3>
+        <p class="concern-body">Hydro-Québec appears to lead on most new construction, while upgrades to existing Churchill Falls units appear to fall to NL Hydro. Cost-overrun risk for NL Hydro's portions should be explicitly capped in the final deal.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="eyebrow">The decision</div>
+    <h2 class="section-title">Three choices on <em>the table</em>.</h2>
+
+    <div class="choices">
+      <div class="choice">
+        <div class="choice-name">Sign as-is</div>
+        <div class="choice-row"><strong>What it means</strong>Take the money and lock in the MOU terms.</div>
+        <div class="choice-row"><strong>The problem</strong>May give away too much flexibility for too long, with an undefined escalation formula.</div>
+        <span class="verdict">Carries significant long-term risk without further clarification and safeguards</span>
+      </div>
+
+      <div class="choice">
+        <div class="choice-name">Walk away</div>
+        <div class="choice-row"><strong>What it means</strong>Wait until 2041 and try to negotiate again.</div>
+        <div class="choice-row"><strong>The problem</strong>Loses years of meaningful revenue and the current opportunity window.</div>
+        <span class="verdict warn">Useful as leverage, not the goal</span>
+      </div>
+
+      <div class="choice best">
+        <div class="choice-name">Fix it, then sign</div>
+        <div class="choice-row"><strong>What it means</strong>Keep the benefits. Strengthen the weak terms. Then finalize.</div>
+        <div class="choice-row"><strong>The problem</strong>Requires tough, transparent negotiation under real time pressure.</div>
+        <span class="verdict good">Best practical path</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="eyebrow">What the final deal must include</div>
+    <h2 class="section-title">Five conditions before <em>any</em> signature.</h2>
+
+    <ul class="must-list">
+      <li class="must-item">
+        <div class="must-num"></div>
+        <div>
+          <h3 class="must-title">Money in hand, not on paper.</h3>
+          <p class="must-body">The original MOU promised revenue retroactive to January 1, 2025, but the framework deadline expired on April 30, 2026 without a binding agreement. Any new deal must restore the retroactive trigger, or NL loses the value of every month spent at 0.2¢/kWh while negotiations drag on.</p>
+        </div>
+      </li>
+      <li class="must-item">
+        <div class="must-num"></div>
+        <div>
+          <h3 class="must-title">A binding pricing formula.</h3>
+          <p class="must-body">The escalation mechanism in any final agreement must be explicit, plain-language, and tied to verifiable benchmarks, not left to future negotiation under Schedule F principles. Without this, the advertised long-term value is a forecast, not a commitment.</p>
+        </div>
+      </li>
+      <li class="must-item">
+        <div class="must-num"></div>
+        <div>
+          <h3 class="must-title">Review windows for non-price terms.</h3>
+          <p class="must-body">Even a strong pricing formula cannot capture structural shifts, including new industrial demand, transmission alternatives, ownership questions, or technologies that don't yet exist. At least one binding re-opener before 2051 to renegotiate non-price terms when the world changes.</p>
+        </div>
+      </li>
+      <li class="must-item">
+        <div class="must-num"></div>
+        <div>
+          <h3 class="must-title">Transmission and market access.</h3>
+          <p class="must-body">Firm wheeling rights through Quebec, transparent tariffs, and dispute resolution, locked in, not left to future negotiation.</p>
+        </div>
+      </li>
+      <li class="must-item">
+        <div class="must-num"></div>
+        <div>
+          <h3 class="must-title">Independent public review of the final deal.</h3>
+          <p class="must-body">The binding agreement, not just the MOU, must be reviewed publicly before being locked in for fifty years.</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="eyebrow">Reality check, the clock</div>
+    <h2 class="section-title">Time is <em>not unlimited</em>.</h2>
+
+    <div class="pressure">
+      <div class="pressure-tag">Political timeline</div>
+      <h3 class="pressure-title">"Fix it" only works if there is still time to fix it.</h3>
+      <div class="pressure-body">
+        <p>Quebec holds a provincial election on October 5, 2026. Political uncertainty could affect the future of negotiations, especially if a new government takes a different position on the MOU.</p>
+        <p>The original April 30, 2026 target for binding agreements has passed. The framework now sits in limbo, with talks reduced to the minimum needed to keep things alive. Premier Wakeham has restated his commitment to a public referendum on any final deal.</p>
+        <p>The negotiating window remains tight. Quebec's October 2026 election adds urgency. Failure to reach a revised deal soon could risk the current terms entirely if a government opposed to the current framework takes office.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="eyebrow">Beyond the contract</div>
+    <h2 class="section-title">Use the power to <em>build the economy here</em>.</h2>
+
+    <div class="prose">
+      <p>The MOU is about more than selling electrons to Quebec. It is about whether Newfoundland & Labrador uses its remaining hydroelectric potential to generate cash flow on paper or to anchor industries that create real jobs in the province.</p>
+      <p>Before locking up future capacity, the province should test real demand from industries that need clean, firm power.</p>
+    </div>
+
+    <div class="growth-tags">
+      <span class="growth-tag">Mining & mineral processing</span>
+      <span class="growth-tag">Hydrogen</span>
+      <span class="growth-tag">Year-round food production</span>
+      <span class="growth-tag">Advanced manufacturing</span>
+      <span class="growth-tag">Digital infrastructure</span>
+      <span class="growth-tag">Critical minerals refining</span>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="eyebrow">What winning looks like</div>
+    <h2 class="section-title">What NL needs to <em>actually win</em>.</h2>
+
+    <div class="prose">
+      <p>"Fix it, then sign" is not a slogan. It is a list of specific asks the binding agreement must contain. Anything less, and the province has spent fifty years of leverage for a better-but-not-good-enough version of the same trade.</p>
+    </div>
+
+    <ul class="must-list">
+      <li class="must-item">
+        <div class="must-num"></div>
+        <div>
+          <h3 class="must-title">An industrial recruitment guarantee.</h3>
+          <p class="must-body">Reserve 500 to 1,000 MW of new capacity at competitive rates for in-province industrial users, including hydrogen production, AI and data centres, advanced manufacturing, and mineral processing. If NL cannot develop demand within ten years, Quebec gets first refusal at the same rate. Without this, the 1,990 MW Labrador allocation risks becoming stranded capacity Quebec eventually buys at a discount.</p>
+        </div>
+      </li>
+      <li class="must-item">
+        <div class="must-num"></div>
+        <div>
+          <h3 class="must-title">Transparent revenue accounting.</h3>
+          <p class="must-body">The government must publish exactly how much Churchill Falls revenue is discretionary versus already committed to Muskrat Falls rate mitigation, debt servicing, and existing obligations. The public deserves to know whether this deal funds schools and hospitals, or just covers existing bills.</p>
+        </div>
+      </li>
+      <li class="must-item">
+        <div class="must-num"></div>
+        <div>
+          <h3 class="must-title">An escalation floor in dollars.</h3>
+          <p class="must-body">Whatever Schedule F ends up saying, the binding agreement must guarantee a minimum total present value, not a forecast that can swing by $115 billion based on which assumption proves correct. The floor should be expressed in dollars, indexed to inflation, with no escape clauses.</p>
+        </div>
+      </li>
+      <li class="must-item">
+        <div class="must-num"></div>
+        <div>
+          <h3 class="must-title">Transmission rights with teeth.</h3>
+          <p class="must-body">Binding wheeling rights to New England, New York, and Ontario at cost-plus pricing, not whatever Hydro-Québec decides to charge. Independent arbitration for disputes. Future expansion rights protected for the full term. Without this, every other concession is worth less than it looks.</p>
+        </div>
+      </li>
+      <li class="must-item">
+        <div class="must-num"></div>
+        <div>
+          <h3 class="must-title">Cost overrun clarity, project by project.</h3>
+          <p class="must-body">Hydro-Québec appears to carry the lead risk on Gull Island, while NL Hydro appears responsible for Churchill Falls upgrades and Labrador transmission. The final deal must spell out which entity bears risk for each line item, and not leave NL exposed to surprises during construction.</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="eyebrow">The public's leverage</div>
+    <h2 class="section-title">Use the <em>referendum</em> as leverage.</h2>
+
+    <div class="prose">
+      <p>Premier Wakeham has committed to putting any final deal to a public referendum before signing. That commitment is the single most powerful tool the public has, and it should be used deliberately.</p>
+      <p>Any binding agreement that fails to meet the conditions outlined in this brief should fail that referendum. The government should know that going in. So should Quebec.</p>
+      <p>This brief is not a campaign for or against a deal. It is a roadmap for informed voting when the time comes. The independent review committee's report on May 19 will add detail. The final agreement, if and when it appears, will need the same scrutiny.</p>
+      <p>The 1969 deal passed with almost no public scrutiny. That is the mistake worth not repeating.</p>
+    </div>
+  </div>
+</section>
+
+<section class="closing">
+  <div class="container">
+    <div class="closing-line">
+      Get paid <em class="accent">now</em>.<br>
+      Keep control <em class="accent">later</em>.<br>
+      Build the economy <em class="accent">here</em>.
+    </div>
+    <div class="closing-tag">That is the position. Work with Quebec, but do not sign blind.</div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    Public Brief · Churchill Falls MOU · May 2026
+  </div>
+</footer>
+
+</body>
+</html>
